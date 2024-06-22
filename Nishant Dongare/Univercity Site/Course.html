@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="icon" type="image" href="images/th.jpeg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Explore Our Courses</h1>
+    </section>
+
+    <section class="course">
+      <h1>Discover Our Programs</h1>
+      <p>Find the perfect course for your academic journey.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Undergraduate Studies</h3>
+          <p>
+            Explore our undergraduate programs designed to prepare you for the
+            future.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Graduate Studies</h3>
+          <p>Elevate your career with our comprehensive graduate programs.</p>
+        </div>
+        <div class="course-col">
+          <h3>Professional Development</h3>
+          <p>
+            Enhance your skills and expertise with our specialized professional
+            courses.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Discover Our Facilities</h1>
+      <p>
+        Experience the best learning environment with our top-notch facilities.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>State-of-the-Art Library</h3>
+          <p>
+            Access a vast collection of resources and study in a conducive
+            environment.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Sports Facilities</h3>
+          <p>
+            Stay active and healthy with our well-equipped sports facilities and
+            grounds.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Healthy Dining Options</h3>
+          <p>Enjoy delicious and nutritious meals at our campus cafeteria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Discover more about our institution and our commitment to academic
+        excellence.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

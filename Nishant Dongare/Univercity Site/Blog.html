@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="icon" type="image" href="images/th.jpeg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="About.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="Course.html">COURSE</a>
+            </li>
+            <li>
+              <a href="Blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="Contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Discover Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Explore Our Diverse Range of Certificate & Online Programs</h2>
+          <p>
+            Embark on a journey of lifelong learning with our specialized
+            certificate and online programs tailored to meet the demands of the
+            digital age. Whether you're looking to upskill, reskill, or explore
+            new horizons, our programs offer comprehensive insights and
+            practical skills necessary for success.
+          </p>
+          <br />
+          <p>
+            With a focus on industry relevance and cutting-edge technologies,
+            our programs are designed and delivered by experts in their
+            respective fields. From data science to business analytics, machine
+            learning to computer science, our offerings cater to diverse
+            interests and career aspirations.
+          </p>
+          <br />
+          <p>
+            At Global University, we believe in empowering individuals to thrive
+            in a rapidly evolving world. Join us on this transformative journey
+            and unlock your full potential.
+          </p>
+          <br />
+          <p>
+            Ready to take the next step? Enroll now and embark on a rewarding
+            learning experience with Global University.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Your Name" />
+              <input type="Email" placeholder="Enter Your Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="Submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Data Science</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>Business Analytics</span>
+            <span>32</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>18</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>41</span>
+          </div>
+          <div>
+            <span>Web Development</span>
+            <span>37</span>
+          </div>
+          <div>
+            <span>Digital Marketing</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>Project Management</span>
+            <span>25</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Global University is committed to providing accessible and innovative
+        education solutions to learners worldwide. Our mission is to empower
+        individuals with the knowledge and skills needed to succeed in today's
+        dynamic landscape.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
